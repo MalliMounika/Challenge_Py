@@ -305,11 +305,6 @@ Design a LangGraph flow for question processing and answer retrieval.
 
 Create a simple loop for user interaction in the Python script.
 
-Instructions for Candidates:
-
-Write the Python code for your LangGraph FAQ bot.
-
-Include your faq_data.
 
 Code
 
