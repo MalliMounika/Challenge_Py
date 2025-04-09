@@ -292,10 +292,26 @@ I used a Large Language Model (LLM) like ChatGPT to assist me in understanding t
 "To run my application, first I installed Python and MySQL on my system. Then I created the required tables by running the SQL script in MySQL Workbench. I used mysql.connector, so I installed that package using pip. After updating the database connection details in my Python file, I ran the script using the command python blog_cli.py. The application runs in the terminal with a simple menu where the user can create posts, view titles, or search by tag."
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Task-2:
-Conversational AI:FAQ Bot Langgraph
 
+Challenge 2 - Conversational AI: Simple FAQ Bot (LangGraph) 
 
+Build a simple conversational FAQ bot using LangGraph to answer user questions based on a predefined set of at least 5 question-answer pairs. The bot should take user input and return the most relevant answer.
+
+Requirements:
+
+Define FAQ data in Python.
+
+Design a LangGraph flow for question processing and answer retrieval.
+
+Create a simple loop for user interaction in the Python script.
+
+Instructions for Candidates:
+
+Write the Python code for your LangGraph FAQ bot.
+
+Include your faq_data.
+
+Code
 
     from dataclasses import dataclass
     from langgraph.graph import StateGraph
